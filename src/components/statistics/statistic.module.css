@@ -1,0 +1,34 @@
+.statistics {
+    width: 400px;
+    min-width: max-content;
+    max-width: 480px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #d68b8b;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: #fff;
+}
+
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 5px 0;
+    line-height: 1.5;
+}
+.statList {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #e9e3be;
+}
+.item:not(:last-child) {
+    border-right: 1px solid #d68b8b;
+  }
